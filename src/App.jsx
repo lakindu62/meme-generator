@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react"
 import Navbar from "./components/navBar"
 import Controls from "./components/inputAndControl"
 import MemeImage from "./components/meme"
+import Footer from "./components/footer"
 
 
 
@@ -72,6 +73,7 @@ function getMeme(){
         value={{ input01: meme.topText, input02: meme.bottomText }}
         image={meme.randomImage}
       />
+      <Footer />
 
     </div>
   )
