@@ -6,3 +6,9 @@ export default defineConfig({
   base:'/meme-generator/',
   plugins: [react()],
 })
+
+// module.exports = {
+//   build: {
+//     assetsDir: 'public'
+//   }
+// }
